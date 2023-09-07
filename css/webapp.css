@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.main-page{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .section-page {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.debug .container {
+    border: 2px solid aqua;
+    padding: 10px;
+}
+
+.debug .row{
+    border: 2px solid pink;
+    padding: 10px;
+}
