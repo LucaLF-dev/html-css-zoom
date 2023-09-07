@@ -8,6 +8,11 @@ html{
     font-family: 'DM Sans' , sans-serif;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 #app{
     background-color: black;
     height: 100vh;
@@ -20,8 +25,20 @@ html{
     flex-grow: 1;
 }
 
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 
+.image {
+    width: 100%;
+    display: inline-block;
+}
 
+.col {
+    flex-basis: calc(100% / 7);
+}
 
 
 
@@ -45,7 +62,7 @@ html{
     padding: 10px;
 }
 
-.debug .row{
+.debug .col{
     border: 2px solid pink;
     padding: 10px;
 }
