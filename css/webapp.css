@@ -44,11 +44,21 @@ img {
 .image-container {
     width: 300px;
     height: 200px;
+    position: relative;
+    padding: 2px;
 }
- .image-random {
-    padding: 10px;
- }
+ 
 
+
+.user-phone {
+    background-color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 25px;
+    padding: 5px;
+}
 
 
 
