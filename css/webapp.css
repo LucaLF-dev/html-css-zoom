@@ -19,12 +19,13 @@ img {
     color: white;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    
 }
 
 .app-content {
     flex-grow: 1;
     padding: 30px;
+    position: relative;
 }
 
 .container {
@@ -60,7 +61,25 @@ img {
     padding: 5px;
 }
 
+.app-toolbar {
+    background-color: #222222;
+}
 
+.button-fixed {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+
+}
+
+.button {
+    background-color: rgb(163, 163, 163);
+    font-size: 12px;
+    line-height: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    display: inline-block;
+}
 
 
 
