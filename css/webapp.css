@@ -15,7 +15,7 @@ img {
 
 #app{
     background-color: black;
-    min-height: 100vh;
+    height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -71,8 +71,10 @@ img {
     background-color: #222222;
     height: 10vh;
     display: flex;
+    flex-shrink: 0;
     align-items:center ;
     justify-content: space-between; 
+    padding: 20px;
     
 }
 
@@ -114,13 +116,10 @@ img {
 .text-aside {
     display: block;
     text-align: center;
-    display: flex;
+    
 }
 
-.button-aside > div {
-   
 
-}
 
 
 
